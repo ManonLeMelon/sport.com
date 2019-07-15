@@ -1,0 +1,166 @@
+// Imports scss
+@import "variables";
+
+// Imports css
+@import "bootstrap.css";
+main{
+    background-color: lightgrey;
+    padding: 30px !important;
+}
+.container {
+
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+#bloque{
+        position: relative;
+        left: 150px;
+        top: 29px;
+    p{
+        text-align: left;
+    }
+}
+
+
+#bonjour{
+    text-align: center;
+    position: relative;
+    left: -60px;
+}
+
+.card{
+    border: none;
+}
+
+#vente{
+    margin-bottom: 40px;
+}
+
+button{
+    margin-top:15px;
+}
+
+h5{
+    position: absolute;
+    bottom: 15px;
+    right: 137px;
+}
+
+#reduction{
+    position: absolute;
+    top: 4px;
+    right: -21px;
+    
+}
+
+.badge-secondary{
+    color: #f7a100 !important;
+}
+
+#gant{
+    box-shadow: 1px 1px 12px gray;
+}
+
+//Prix Barrés
+#barres{
+    position: relative;
+    font-size: 1.5em;
+    right: -107px;
+    &::after{
+        position: absolute;
+        top: calc(50% - 3px);
+        left: -2px;
+        right: -2px;
+        height: 4px;
+        content:'';
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+}
+footer{
+    background-color: #3a3a3a;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+#CP{
+    margin-bottom: 0;
+}
+
+#picto{
+    height: 32px;
+    display: block;
+    margin-left: auto;
+    margin: auto;
+}
+
+#ensemble{
+   padding-top: 65px;
+}
+
+#espace{
+    padding-right:30px;
+    margin-bottom: 15px;
+}
+
+.btn-group{
+    margin: auto;
+    position: relative;
+    bottom: -50px;
+}
+
+
+#rectangle{
+    height: 30px;
+    background: #3a3a3a;
+    position: absolute;
+    content: '';
+    right: 0px;
+    width: 1342px;
+    bottom: -1303px;
+}
+
+.btn-group2{
+    border: 1px solid black;
+    width: 385px;
+}
+
+
+#rectangle2{
+	width: 11px;
+    height: 161px;
+    background-image: linear-gradient(#f8f9fa,#f7a100);
+    position: absolute;
+    left: 156px;
+    top: 18px;
+}
+
+#rectangle3{
+	width: 192px;
+    height: 6px;
+    background-image: linear-gradient(to right, #d3d3d3, black);
+    position: absolute;
+    left: 332px;
+    top: 575px;
+}
+
+#prix{
+    position: relative;
+    top: -41px;
+    right: -184px;
+    font-size: 2em;
+    color: #f7a100;
+}
